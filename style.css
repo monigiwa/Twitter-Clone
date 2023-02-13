@@ -1,0 +1,286 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    /* margin-right: 45px; */
+    flex-wrap: wrap;
+}
+.header{
+    width: 230px;
+    display: block;
+}
+.fa-twitter{
+    color: rgb(17, 172, 234);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+.fa-house, .fa-hashtag, .fa-bell, .fa-envelope, .fa-bookmark, #fa-list, #fa-use, #fa-ellipsis{
+    margin-right: 15px;
+}
+.home{
+    font-weight: bold;
+    font-size: 17px;
+}
+.lists_twitter{
+    font-size: 17px;
+    margin-top: 25px;
+}
+.btn{
+    border: none;
+    border-radius: 35px;
+    height: 45px;
+    width: 200px;
+    margin-top: 25px;
+    background: rgb(17, 172, 234);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.img_src{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.image_footer{
+    display: flex;
+    margin-top: 70px;
+}
+.p{
+    font-weight: bold;
+}
+.user_name{
+    color: rgb(135, 133, 133);
+}
+.more_icon{
+    margin-left: 30px;
+}
+.middle_container{
+    width: 600px;
+    box-sizing: border-box;
+    
+}
+.header_2{
+    border: 2px solid rgb(240, 238, 238);
+    border-top: none;
+    height: 170px;
+}
+.flex_icon{
+    display: flex;
+    justify-content: space-between;
+}
+.left_header{
+    font-weight: bold;
+}
+.head{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.fa-gears{
+    margin-top: 15px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.foot_img{
+    display: flex;
+}
+.img_head{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-right: 7px;
+}
+#input{
+    height: 80px;
+    width: 500px;
+    border: none;
+    outline: none;
+    color: rgb(59, 59, 59);
+    font-size: 17px;
+    margin-top: 30px;
+    resize: none;
+    overflow: hidden;
+}
+.icons-para{
+    margin-top: -10px;
+}
+.icons-para>a{
+    color: rgb(87, 189, 230);
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 15px;
+}
+.btn_2{
+    height: 25px;
+    width: 70px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(87, 191, 233);
+    color: white;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.next_border{
+    border: 2px solid rgb(240, 237, 237);
+    border-top: none;
+    border-bottom: none;
+    height: 207px;
+}
+.follow{
+    margin-left: 45px;
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+#fa-user{
+    font-size: 10px;
+    margin-right: 12px;
+}
+.img_div{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flex_div{
+    display: flex;
+}
+span{
+    font-weight: bold;
+    color: #000;
+}
+.span{
+    color: rgb(87, 191, 233);
+}
+.user-name{
+    margin-right: 35px;
+    color: rgb(112, 109, 109);
+}
+.icons_more{
+    color: rgb(77, 77, 77);
+}
+#retweet_icons{
+    margin-right: 10px;
+    
+}
+.fa-comment{
+    margin-left: 32px;
+}
+.fa-retweet{
+    margin-left: 32px;
+}
+.fa-heart{
+    margin-left: 32px;
+}
+.fa-download{
+    margin-left: 32px;
+}
+.last_bordder{
+    background: #efeeee;
+    height: 450px;
+    display: flex;
+}
+.image_pro{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.profile_user{
+    margin-top: 12px;
+}
+.rules_life{
+    background: white;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.first_header{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rule_1, .rule_2, .rule_3, .rule_4, .rule_5{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.profile_user{
+    color: rgb(77, 77, 77);
+}
+.icons_more2{
+    margin-top: 15px;
+    color: rgb(77, 77, 77);
+    margin-left: 6px;
+}
+.last_container{
+    width: 380px;
+}
+.search_icon{
+    background: rgb(237, 237, 237);
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 5px;
+    width: 370px;
+    margin-left: 25px;
+}
+.search-icon{
+    padding-top: 12px;
+    padding-left: 20px;
+    color: rgb(123, 122, 122);
+}
+.trends_container{
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    width: 370px;
+    margin-left: 25px;
+    color: rgb(77, 77, 77);
+}
+#fa-search{
+    margin-right: 25px;
+}
+.flex_trends{
+    display: flex;
+    justify-content: space-between;
+}
+.trends_flex{
+    margin-top: 23px;
+    margin-left: 17px;
+}
+.trends{
+    padding-top: 10px;
+    padding-left: 17px;
+}
+.flex_ellipsis{
+    margin-top: 23px;
+    margin-right: 15px;
+}
+.trends_2{
+    display: flex;
+    justify-content: space-between;
+}
+.trends_3, .trends_4, .trends_5, .trends_6, .trends_7, .trends_8{
+    display: flex;
+    justify-content: space-between;
+}
+.span4{
+    font-size: 13px;
+    color: rgb(65, 190, 240);
+}
